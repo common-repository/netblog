@@ -1,0 +1,173 @@
+@charset "utf-8";
+.lister {
+	/*border: 1px solid #999;*/
+	display: none;
+}
+.lister .row, .lister .row:link, .lister .row:visited {
+	display: block;
+	cursor:default;
+	padding: 0px;
+	font-size: 12px;
+	border-bottom: 1px solid #DDD;
+	background: #EEE;
+}
+.lister .row:hover {	
+	/*background:#BFDFFF; */
+}
+.lister .row .content, .lister .row .content:link, .lister .row .content:visited {
+	padding: 4px 10px 4px 15px;
+	background: #FFF;
+}
+.lister .row .content:hover {
+	/*background: #F9F9F9;*/
+}
+
+
+/* SUBMENU IN EACH ROW - ROW OPERATIONS AS ICONS ON LEFT OR RIGHT SIDE */
+.lister .row .menuLeft .submenu, .lister .row .menuRight .submenu {
+	display: block;
+	width: 23px;
+	padding: 1px;
+	text-align: center;
+}
+.lister .row .menuLeft .submenu {
+	float: left;
+}
+.lister .row .menuLeft .content {
+	display: block;
+	margin-left: 16px;
+	border-left: 1px solid #EEE;
+}
+.lister .row .menuRight .submenu {
+	float: right;
+}
+.lister .row .menuRight .content {
+	display: block;
+	margin-right: 16px;
+	border-right: 1px solid #EEE;
+}
+.lister .row strong {
+	font-weight: bold;
+}
+.lister .row em {
+	font-style:normal;
+	font-weight: normal;
+	color:#111;
+	font-size: 11px;
+}
+.lister .row dfn {
+	font-style:normal;
+	font-weight: normal;
+	color: #666;
+}
+.lister .row small {
+	font-size: 10px;
+	color: #666;
+}
+.lister .row a.del, .lister .row a.del:link, .lister .row a.del:visited {
+	color:#333;
+	text-decoration: none;
+	background-image: url('../images/xit2_13.png');
+	background-repeat:repeat;
+	background-position: top left;
+	cursor: pointer;
+	display: block;
+	width: 13px;
+	height: 13px;
+	margin: 10px;
+}
+.lister .row a.del:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	background-position: top right;
+}
+
+
+.lister ul {
+}
+.lister ul li {
+	font-size: 12px;
+}
+.lister li strong {
+	font-weight: bold;
+}
+.lister li em {
+	font-style:normal;
+	font-weight: normal;
+	color:#111;
+	font-size: 11px;	
+}
+.lister li dfn {
+	font-style:normal;
+	font-weight: normal;
+	color: #666;
+}
+.lister li small {
+	font-size: 10px;
+	color: #666;
+}
+.lister li a.del, .lister li a.del:link, .lister li a.del:visited {
+	color:#333;
+	text-decoration: none;
+}
+.lister li a.del:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.lister .xlist {
+	font-size: 12px;
+	float: none;
+	clear: both;
+	padding: 5px;
+}
+.lister .xlist .content {
+	margin-left: 25px;
+}
+.lister .xlist strong {
+	font-weight: bold;
+}
+.lister .xlist em {
+	font-style:normal;
+	font-weight: normal;
+	color:#999;
+	font-size: 11px;	
+}
+.lister .xlist em.title {
+	color: #666;
+}
+.lister .xlist dfn {
+	font-style:normal;
+	font-weight: normal;
+	color: #999;
+	padding: 5px 5px 5px 25px;
+	display: block;
+}
+.lister .xlist small {
+	font-size: 10px;
+	color: #666;
+}
+.lister .xlist a.del, .lister .xlist a.del:link, .lister .xlist a.del:visited {
+	color:#333;
+	text-decoration: none;
+	background-image: url('../images/xit.gif');
+	background-repeat:repeat;
+	background-position: top left;
+	cursor: pointer;
+	display: block;
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 2px 8px;	
+}
+.lister .xlist a.del:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	background-position: top right;
+}
+.lister .xlist a.right, .lister .xlist a.right:link, .lister .xlist a.right:visited {
+	float: right;
+	padding: 0px 3px;
+	cursor: pointer;
+}

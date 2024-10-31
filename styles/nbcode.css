@@ -1,0 +1,115 @@
+@CHARSET "ISO-8859-1";
+
+.nbcode {
+	border: 1px solid #CCC;
+}
+
+.nbcode,
+.nbcode .even {
+	background-color:#F4F4F4;
+	color: #000;
+}
+.nbcode .odd {
+	background-color:#EEE;
+	color: #000;
+}
+
+.nbcode .header {
+	font-weight: bold;
+	padding-left: 5px;
+	
+	background-color: #DDD;
+}
+.nbcode .subheader {
+	color: #666;
+	font-size: 10px;
+	float: right;
+	padding: 0px 10px;
+}
+.nbcode .body {
+	background-color: #E9E9E9;
+	overflow: auto;
+	max-height: 600px;	
+}
+.nbcode .body .left {
+	display: block;
+	float: left;
+	width: 35px;
+	padding-left: 3px;
+	
+	
+	color: #999;
+	font-size: 10px;
+}
+.nbcode .body .line {
+	white-space: pre-wrap;
+	display: block;
+	border-left: 2px solid #0CF;
+	margin-left: 40px;
+	padding: 0px 5px;
+	background-color: #EEE;
+	
+	font-family:Verdana, Geneva, sans-serif;
+}
+.nbcode .body .clear {
+	float: none;
+	clear: both;
+}
+
+
+
+
+.nbcode ol {
+	
+	margin: 0px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	overflow: auto;
+	max-height: 600px;	
+}
+.nbcode li {
+	background-color:#F4F4F4;
+	padding-left: 5px;
+	margin-left: 15px;
+	display: list-item;	
+	border-left: 2px solid #0CF;
+	font-size: 10px;
+	color: #666;
+}
+
+.nbcode li .code {
+	white-space: pre-wrap;
+}
+
+
+
+
+.nbcode .keywords {
+	color: #03F;
+	display: inline;
+}
+.nbcode .comment {
+	color:#999;
+	display: inline;
+}
+
+
+
+
+
+
+pre { 
+	font-family: Courier New, Bitstream Vera Sans Mono, monospace; 
+	font-size: 9pt;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	padding: 0.4em;
+	color: #000;
+	background-color: #EEE;
+}
+pre span.N{ color:#f2c47f; } /* Numbers */
+pre span.S{ color:#42ff00; } /* Strings */
+pre span.C{ color:#838383; } /* Comments */
+pre span.K{ color:#ff0078; } /* Keywords */
+pre span.V{ color:#70d6ff; } /* Vars */
+pre span.D{ color:#ff9a5d; } /* Defines */

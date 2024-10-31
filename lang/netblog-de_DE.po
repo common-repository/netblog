@@ -1,0 +1,1169 @@
+# Translation of the WordPress plugin NetBlog 1.4.4 by Benjamin Sommer.
+# Copyright (C) 2010 Benjamin Sommer
+# This file is distributed under the same license as the NetBlog package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetBlog 1.4.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/netblog\n"
+"POT-Creation-Date: 2010-07-31 17:19+0000\n"
+"PO-Revision-Date: 2010-07-31 22:52+0100\n"
+"Last-Translator: Benjamin Sommer <developer@benjaminsommer.com>\n"
+"Language-Team: de_DE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+
+#: core/caption.php:84
+#: core/caption.php:140
+msgid "Invalid caption numbering"
+msgstr "Ungültige Nummerierung der Beschriftung"
+
+#: core/cite.php:53
+#: core/mtb_furead.php:199
+#: core/settings.php:71
+#: core/settings.php:517
+msgid "Author"
+msgstr "Autor"
+
+#: core/cite.php:54
+#: core/mtb_refmaker.php:80
+#: netblogWidgets.php:46
+#: netblogWidgets.php:312
+msgid "Title"
+msgstr "Titel"
+
+#: core/cite.php:55
+msgid "Year"
+msgstr "Jahr"
+
+#: core/cite.php:56
+msgid "City"
+msgstr "Stand"
+
+#: core/cite.php:57
+msgid "Publisher"
+msgstr "Herausgeber, Verlag"
+
+#: core/cite.php:58
+msgid "Publisher Place"
+msgstr "Herausgeber, Ort"
+
+#: core/cite.php:59
+msgid "Pages"
+msgstr "Seitenangaben"
+
+#: core/cite.php:60
+msgid "Volume"
+msgstr "Band"
+
+#: core/cite.php:61
+msgid "Book Author"
+msgstr "Buchautor"
+
+#: core/cite.php:62
+msgid "Book Title"
+msgstr "Buchtitel"
+
+#: core/cite.php:63
+msgid "Title Periodical"
+msgstr "Titel von Magazin/Zeitschrift"
+
+#: core/cite.php:64
+msgid "Month"
+msgstr "Monat"
+
+#: core/cite.php:65
+msgid "Day"
+msgstr "Tag"
+
+#: core/cite.php:66
+msgid "Year accessed"
+msgstr "Jahr, zugegriffen"
+
+#: core/cite.php:67
+msgid "Month accessed"
+msgstr "Monat, zugegriffen"
+
+#: core/cite.php:68
+msgid "Day accessed"
+msgstr "Tag, zugegriffen"
+
+#: core/cite.php:69
+#: core/settings.php:192
+#: core/settings.php:228
+msgid "URL"
+msgstr "URL"
+
+#: core/cite.php:70
+msgid "DOI"
+msgstr "DOI"
+
+#: core/cite.php:71
+msgid "Conference name"
+msgstr "Name der Konferenz"
+
+#: core/cite.php:72
+#: core/cite.php:73
+#: core/cite.php:98
+msgid "Books"
+msgstr "Bücher"
+
+#: core/cite.php:74
+msgid "Composer"
+msgstr "Komponist"
+
+#: core/cite.php:75
+msgid "Conductor"
+msgstr "Leiter, Leitung"
+
+#: core/cite.php:76
+msgid "Performer"
+msgstr "Artist"
+
+#: core/cite.php:77
+msgid "Writer"
+msgstr "Schriftsteller"
+
+#: core/cite.php:78
+msgid "Theater"
+msgstr "Theater"
+
+#: core/cite.php:79
+msgid "Director"
+msgstr "Regisseur"
+
+#: core/cite.php:80
+msgid "Movie"
+msgstr "Film"
+
+#: core/cite.php:81
+msgid "Inventor"
+msgstr "Erfinder"
+
+#: core/cite.php:82
+msgid "Patent num."
+msgstr "Patentnummer"
+
+#: core/cite.php:83
+msgid "Case num."
+msgstr "Fallnummer"
+
+#: core/cite.php:84
+msgid "Court"
+msgstr "Gericht"
+
+#: core/cite.php:85
+msgid "Source"
+msgstr "Quelle"
+
+#: core/cite.php:86
+msgid "Special"
+msgstr "Spezial/Besonderes"
+
+#: core/cite.php:87
+msgid "Webpage"
+msgstr "Webseite, URL"
+
+#: core/cite.php:88
+msgid "Website"
+msgstr "Herausgeber/Besiter der Webseite"
+
+#: core/cite.php:89
+#: core/mtb_refmaker.php:72
+#: core/mtb_refmaker.php:179
+msgid "Type"
+msgstr "Typ"
+
+#: core/cite.php:90
+#: core/cite.php:251
+#: core/cite.php:256
+#: core/cite.php:257
+#: core/cite.php:262
+#: core/cite.php:267
+#: core/cite.php:270
+#: core/cite.php:275
+#: core/mtb_refmaker.php:99
+msgid "Print"
+msgstr "Ausgeben"
+
+#: core/cite.php:91
+msgid "Print Sections"
+msgstr "Abschnitt ausgeben"
+
+#: core/cite.php:92
+msgid "Print Headline"
+msgstr "Headline ausgeben"
+
+#: core/cite.php:93
+msgid "Print Custom"
+msgstr "Benutzerdefiniertes Ausdrucken"
+
+#: core/cite.php:99
+msgid "Book Sections"
+msgstr "Buchabschnitt, Kapitel"
+
+#: core/cite.php:100
+msgid "Journal Articles"
+msgstr "Artikel im Journal"
+
+#: core/cite.php:101
+msgid "Magazine Articles"
+msgstr "Artikel im Magazin"
+
+#: core/cite.php:102
+msgid "Newspaper Articles"
+msgstr "Zeitungsartikel"
+
+#: core/cite.php:103
+msgid "Encyclopedia Articles"
+msgstr "Artikel in Enzyklopädie"
+
+#: core/cite.php:104
+msgid "Conference Proceedings"
+msgstr "Tagungsbericht"
+
+#: core/cite.php:105
+msgid "Report"
+msgstr "Report"
+
+#: core/cite.php:106
+msgid "ERIC Document"
+msgstr "ERIC Dokument"
+
+#: core/cite.php:107
+msgid "Websites"
+msgstr "Webseiten"
+
+#: core/cite.php:108
+msgid "Wiki"
+msgstr "Wiki"
+
+#: core/cite.php:109
+msgid "Blog"
+msgstr "Blog"
+
+#: core/cite.php:110
+msgid "Internet Video"
+msgstr "Internet Video"
+
+#: core/cite.php:111
+msgid "PowerPoint Presentation"
+msgstr "PowerPoint Präsentation"
+
+#: core/cite.php:112
+msgid "Art"
+msgstr "Kunst"
+
+#: core/cite.php:113
+msgid "Sound Recording"
+msgstr "Musikaufnahme"
+
+#: core/cite.php:114
+msgid "Performance"
+msgstr "Aufführung"
+
+#: core/cite.php:115
+msgid "Film"
+msgstr "Film"
+
+#: core/cite.php:116
+msgid "Patent"
+msgstr "Patent"
+
+#: core/cite.php:117
+msgid "Case"
+msgstr "Fall"
+
+#: core/cite.php:134
+msgid "Invalid Citation: missing author and/or title"
+msgstr "Ungültige Zitierung: fehlender Autor und/oder Titel"
+
+#: core/cite.php:184
+#: core/cite.php:195
+#: core/cite.php:196
+#: core/cite.php:200
+#: core/cite.php:201
+#: core/cite.php:202
+msgctxt "url"
+msgid "Retrieved from"
+msgstr "Empfangen von"
+
+#: core/cite.php:190
+#: core/cite.php:191
+#: core/cite.php:322
+#: core/cite.php:323
+#, php-format
+msgctxt "citebooksection"
+msgid "In %s"
+msgstr "Aus %s"
+
+#: core/cite.php:192
+msgid "Retrieved from ERIC databse."
+msgstr "Empfangen vom ERIC Datenbank"
+
+#: core/cite.php:194
+#: core/cite.php:197
+#: core/cite.php:199
+msgctxt "url"
+msgid "Retrieved"
+msgstr "Empfangen"
+
+#: core/cite.php:194
+#: core/cite.php:197
+#: core/cite.php:199
+msgctxt "url"
+msgid "from"
+msgstr "von"
+
+#: core/cite.php:194
+#: core/cite.php:195
+#: core/cite.php:197
+#: core/cite.php:202
+msgctxt "url"
+msgid "website"
+msgstr "Webseite"
+
+#: core/cite.php:199
+msgctxt "cite"
+msgid "In <i>Wikipedia</i>"
+msgstr "Aus <i>Wikipedia</i>"
+
+#: core/cite.php:200
+msgctxt "netblog"
+msgid "Weblog message"
+msgstr "Weblog Nachricht"
+
+#: core/cite.php:201
+msgctxt "netblog"
+msgid "Video file"
+msgstr "Video Datei"
+
+#: core/cite.php:202
+msgid "PowerPoint slides"
+msgstr "PowerPoint Folie"
+
+#: core/cite.php:224
+#, php-format
+msgctxt "citepublisher"
+msgid "in %s"
+msgstr "von %s"
+
+#: core/cite.php:233
+#: core/cite.php:234
+msgid "On-line. Available from Internet"
+msgstr "Online. Erhältlich vom Internet."
+
+#: core/cite.php:233
+#: core/cite.php:234
+#: core/cite.php:328
+#: core/cite.php:329
+msgctxt "url"
+msgid "accessed"
+msgstr "zugegriffen"
+
+#: core/cite.php:249
+#: core/cite.php:250
+#: core/cite.php:254
+#: core/cite.php:260
+#: core/cite.php:261
+#: core/cite.php:266
+#: core/cite.php:274
+#: core/cite.php:278
+#: core/cite.php:281
+#: core/cite.php:284
+#: core/cite.php:287
+#: core/cite.php:290
+#: core/cite.php:294
+msgid "Web"
+msgstr "Web"
+
+#. translators: MLA citation style for newspaper, citing a movie (org. english: Rev. of MOVIE, dir. DIRECTOR) see http://www.liunet.edu/cwis/cwp/library/workshop/citation.htm
+#: core/cite.php:256
+#, php-format
+msgid "Rev. of %s, dir. %s"
+msgstr "Rev. von %s, Dir. %s"
+
+#. translators: MLA citation style for GALE - as Repeat in BOOKTITLE. (org. engl.: Rpt in BOOKTITLE)
+#: core/cite.php:278
+#, php-format
+msgid "Rpt in %s"
+msgstr "Wied. in %s"
+
+#: core/cite.php:287
+msgid "Wikipedia: The Free Encyclopedia"
+msgstr "Wikipedia: Die Freie Enzyklopädie"
+
+#: core/cite.php:287
+msgid "Wikimedia Foundation"
+msgstr "Wikimedia Foundation"
+
+#: core/cite.php:287
+#, php-format
+msgctxt "url"
+msgid "From %s"
+msgstr "Von %s"
+
+#: core/cite.php:292
+msgid "Microsoft PowerPoint"
+msgstr "Microsoft PowerPoint"
+
+#: core/cite.php:292
+msgctxt "citedatafile"
+msgid "file"
+msgstr "Datei"
+
+#: core/cite.php:325
+msgctxt "citeeric"
+msgid "text-fiche"
+msgstr "text-fiche"
+
+#: core/mel.php:9
+#: core/settings.php:99
+#: netblog.php:301
+msgid "Manage External Links"
+msgstr "Externe Links verwalten"
+
+#: core/mel.php:11
+#: core/mel.php:31
+#: core/settings.php:75
+msgid "Just Added"
+msgstr "Neue"
+
+#: core/mel.php:12
+#: core/mel.php:32
+#: core/settings.php:76
+msgid "Most Popular"
+msgstr "Beliebte"
+
+#: core/mel.php:13
+#: core/mel.php:33
+#: core/mel.php:71
+#: core/settings.php:77
+msgid "Offline"
+msgstr "Offline"
+
+#: core/mel.php:14
+#: core/mel.php:34
+#: core/mel.php:72
+#: core/settings.php:78
+msgid "Trashed"
+msgstr "Gelöschte"
+
+#: core/mel.php:28
+msgid "Quick Find"
+msgstr "Schnellsuche"
+
+#: core/mel.php:36
+msgid "Custom"
+msgstr "Eigene"
+
+#: core/mel.php:46
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: core/mel.php:47
+msgid "Trash"
+msgstr "Löschen"
+
+#: core/mel.php:48
+msgid "Erase"
+msgstr "Permanent Löschen"
+
+#: core/mel.php:50
+#: core/settings.php:624
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: core/mel.php:52
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: core/mel.php:53
+msgid "Check Status"
+msgstr "Status überprüfen"
+
+#: core/mel.php:54
+msgid "Lock"
+msgstr "Verriegeln"
+
+#: core/mel.php:55
+msgid "Unlock"
+msgstr "Entriegeln"
+
+#: core/mel.php:73
+msgid "Locked"
+msgstr "Gesichert"
+
+#: core/mel.php:74
+msgid "Modified"
+msgstr "Geändert"
+
+#: core/mel.php:137
+#, php-format
+msgid "%s times"
+msgstr "%s mal"
+
+#: core/mel.php:206
+msgid "Nothing found"
+msgstr "Nichts gefunden"
+
+#: core/mel.php:223
+msgid "search ..."
+msgstr "suche ..."
+
+#: core/mtb_furead.php:39
+msgid "Type a name to search for posts, pages and other resources in the internet."
+msgstr "Hier einen Namen eingeben um nach Posts, Seiten und andere Resourcen im Internet zu suchen."
+
+#: core/mtb_furead.php:55
+msgid "Search for resources"
+msgstr "Nach Resourcen suchen"
+
+#: core/mtb_furead.php:58
+msgid "Your Wordpress site"
+msgstr "Diese Wordpress Seite"
+
+#: core/mtb_furead.php:59
+msgid "World Wide Web"
+msgstr "World Wide Web"
+
+#: core/mtb_furead.php:133
+msgid "Published"
+msgstr "Herausgegeben"
+
+#: core/mtb_furead.php:149
+msgid "Unable to load autocomplete box Handler!"
+msgstr "Fehler beim Laden des Autocomplete Box Handler!"
+
+#: core/mtb_furead.php:186
+msgctxt "url"
+msgid "visit"
+msgstr "gehe zu"
+
+#: core/mtb_furead.php:198
+msgctxt "post"
+msgid "read"
+msgstr "lesen"
+
+#: core/mtb_furead.php:198
+msgctxt "post"
+msgid "edit"
+msgstr "bearbeiten"
+
+#: core/mtb_furead.php:200
+msgid "Published on"
+msgstr "Herausgeben am"
+
+#: core/mtb_furead.php:200
+msgid "as"
+msgstr "als"
+
+#: core/mtb_furead.php:205
+msgid "Unable to load List Handler!"
+msgstr "Fehler beim Laden des List Handler!"
+
+#: core/mtb_furead.php:297
+msgid "Cannot add link"
+msgstr "Kann nicht den Link hinzufügen"
+
+#: core/mtb_furead.php:347
+msgid "Error: cannot remove node"
+msgstr "Fehler: kann nicht den Eintrag entfernen"
+
+#: core/mtb_refmaker.php:8
+#: core/mtb_refmaker.php:9
+msgid "Reference Maker"
+msgstr "Referenz Maker"
+
+#: core/mtb_refmaker.php:24
+msgid "Wizard"
+msgstr "Wizard"
+
+#: core/mtb_refmaker.php:25
+msgid "Create"
+msgstr "Erstellen"
+
+#: core/mtb_refmaker.php:26
+msgid "Footnote"
+msgstr "Fußnote"
+
+#: core/mtb_refmaker.php:27
+#: core/settings.php:31
+msgid "Citation"
+msgstr "Zitate"
+
+#: core/mtb_refmaker.php:28
+#: core/mtb_refmaker.php:31
+#: core/settings.php:32
+msgid "Caption"
+msgstr "Beschriftungen"
+
+#: core/mtb_refmaker.php:30
+msgid "Cross-reference"
+msgstr "Querverweis"
+
+#: core/mtb_refmaker.php:33
+msgid "Tables"
+msgstr "Tabellen"
+
+#: core/mtb_refmaker.php:34
+#: core/settings.php:30
+msgid "Footnotes"
+msgstr "Fußnoten"
+
+#: core/mtb_refmaker.php:35
+msgid "Bibliography"
+msgstr "Bibliographie"
+
+#: core/mtb_refmaker.php:43
+msgid "Print Footnotes"
+msgstr "Fußnoten ausgeben"
+
+#: core/mtb_refmaker.php:46
+msgid "Your Footnote"
+msgstr "Deine Fußnote"
+
+#: core/mtb_refmaker.php:50
+#: core/mtb_refmaker.php:103
+#: core/mtb_refmaker.php:149
+#: core/mtb_refmaker.php:155
+#: core/mtb_refmaker.php:188
+#: core/mtb_refmaker.php:221
+msgid "Copy &amp; Paste"
+msgstr "Kopieren &amp; Einfügen"
+
+#: core/mtb_refmaker.php:72
+#: core/mtb_refmaker.php:76
+msgid "required"
+msgstr "notwendig"
+
+#: core/mtb_refmaker.php:76
+msgid "Name"
+msgstr "Name"
+
+#: core/mtb_refmaker.php:76
+msgid "must be unique for this site"
+msgstr "muss eindeutig für d. Seite sein"
+
+#: core/mtb_refmaker.php:80
+#: core/mtb_refmaker.php:84
+msgid "optional"
+msgstr "optional"
+
+#: core/mtb_refmaker.php:84
+#: core/settings.php:312
+msgid "Format"
+msgstr "Format"
+
+#: core/mtb_refmaker.php:89
+#: core/settings.php:610
+msgid "Display"
+msgstr "Anzeige-Optionen"
+
+#. translators: display mode of captions (left, right, inline, default). for each post and each caption type (if not global), this variable acts like a constant when first defined by the user
+#: core/mtb_refmaker.php:91
+msgid "the first of each type per post counts"
+msgstr "die erste Definition zählt (je Typ und Post/Page)"
+
+#: core/mtb_refmaker.php:93
+#: core/mtb_refmaker.php:140
+msgid "Default"
+msgstr "Standard"
+
+#: core/mtb_refmaker.php:94
+#: core/settings.php:311
+#: core/settings.php:527
+msgid "Inline"
+msgstr "Inline"
+
+#: core/mtb_refmaker.php:95
+#: core/settings.php:529
+msgid "Right"
+msgstr "Rechts"
+
+#: core/mtb_refmaker.php:96
+#: core/settings.php:528
+msgid "Left"
+msgstr "Links"
+
+#: core/mtb_refmaker.php:99
+msgid "optional; e.g. %s or %s"
+msgstr "opional; z.B. %s oder %s"
+
+#: core/mtb_refmaker.php:113
+#: core/settings.php:341
+msgid "none"
+msgstr "nichts"
+
+#: core/mtb_refmaker.php:138
+msgid "Print Style"
+msgstr "Druckstil"
+
+#: core/mtb_refmaker.php:141
+#: core/settings.php:370
+#: core/settings.php:377
+msgid "Custom Styles"
+msgstr "Eigener Stil"
+
+#: core/mtb_refmaker.php:144
+msgid "Headline"
+msgstr "Überschrift"
+
+#: core/mtb_refmaker.php:144
+msgid "default: References"
+msgstr "Standard: Referenzen"
+
+#: core/mtb_refmaker.php:185
+msgid "More"
+msgstr "Mehr"
+
+#: core/mtb_refmaker.php:203
+msgid "No global captions found."
+msgstr "Keine globalen Beschriftungen"
+
+#: core/settings.php:10
+#: netblog.php:304
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: core/settings.php:25
+msgid "Enable Help"
+msgstr "Hilfe aktivieren"
+
+#: core/settings.php:28
+msgid "General"
+msgstr "Allgemein"
+
+#: core/settings.php:34
+msgid "Under the Hood"
+msgstr "Erweitert"
+
+#: core/settings.php:69
+#: core/settings.php:515
+msgid "Administrator"
+msgstr "Administrator"
+
+#: core/settings.php:70
+#: core/settings.php:516
+msgid "Editor"
+msgstr "Redakteur"
+
+#: core/settings.php:72
+#: core/settings.php:518
+msgid "Contributor"
+msgstr "Mitwirkende, Beitragende"
+
+#: core/settings.php:73
+msgid "Subscriber"
+msgstr "AbonnentInnen"
+
+#: core/settings.php:80
+msgid "Immediate"
+msgstr "Sofort"
+
+#: core/settings.php:81
+#: core/settings.php:82
+#: core/settings.php:83
+#: core/settings.php:84
+#: core/settings.php:85
+#, php-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d Sekunde"
+msgstr[1] "%d Sekunden"
+
+#: core/settings.php:86
+#: core/settings.php:87
+#, php-format
+msgid "%d min"
+msgid_plural "%d mins"
+msgstr[0] "%d Minute"
+msgstr[1] "%d Minuten"
+
+#: core/settings.php:102
+#: core/settings.php:119
+msgid "Enabled"
+msgstr "Eingeschaltet"
+
+#: core/settings.php:106
+msgid "Startup Template"
+msgstr "Startup Template"
+
+#: core/settings.php:115
+msgid "Custom Search Templates"
+msgstr "Eigene Suchtemplates"
+
+#: core/settings.php:122
+#: core/settings.php:126
+msgid "Screen name"
+msgstr "Neuer Name für eigenen Suchtemplate"
+
+#: core/settings.php:124
+#, php-format
+msgid "Your custom search query, e.g. %s"
+msgstr "Eigene Suchanfrage, e.g. %s"
+
+#: core/settings.php:125
+msgid "Add Template"
+msgstr "Template hinzufügen"
+
+#: core/settings.php:127
+#, php-format
+msgid "Maximum characters: %d"
+msgstr "Maximale Zeichen: %d"
+
+#: core/settings.php:128
+msgid "alpha-numeric only"
+msgstr "nur alpha-numerisch"
+
+#: core/settings.php:129
+msgid "no whitespace"
+msgstr "keine Lehrzeichen"
+
+#: core/settings.php:131
+msgid "Search query"
+msgstr "Suchanfragen"
+
+#: core/settings.php:133
+msgid "Syntax"
+msgstr "Syntax"
+
+#: core/settings.php:149
+msgid "Read/Access Privilege"
+msgstr "Lesezugriffsrechte"
+
+#: core/settings.php:158
+msgid "Edit Privilege"
+msgstr "Schreibzugriffsrechte"
+
+#: core/settings.php:167
+msgid "Auto-save after modification"
+msgstr "Automatische Speicherung nach"
+
+#: core/settings.php:177
+#: netblogWidgets.php:339
+msgid "Blogsearch"
+msgstr "Blogsuche"
+
+#: core/settings.php:178
+#: core/settings.php:214
+msgid "Predefined Provider"
+msgstr "Vordefinierte Anbieter"
+
+#: core/settings.php:179
+msgid "Google Blogsearch"
+msgstr "Google Blogsuche"
+
+#: core/settings.php:180
+#: core/settings.php:216
+#: core/settings.php:389
+msgid "Apply"
+msgstr "Übernehmen"
+
+#: core/settings.php:182
+#: core/settings.php:218
+msgid "Provider Name"
+msgstr "Name des Anbieters"
+
+#: core/settings.php:187
+#: core/settings.php:223
+msgid "Provider URL"
+msgstr "URL des Anbieters"
+
+#: core/settings.php:196
+msgid "Blogsearch URL"
+msgstr "URL für Blogsuche"
+
+#: core/settings.php:197
+#: core/settings.php:233
+msgid "must return a valid XML Feed"
+msgstr "muss ein gültiges XML-Feed zurückgeben"
+
+#: core/settings.php:198
+#: core/settings.php:234
+#, php-format
+msgid ""
+"%s := will be replaced either with Global Max Results or with a lower number\r\n"
+"\t\t\t\t\tso that the total number of links displayed will not exceed the maximum\r\n"
+"\t\t\t\t\tnumber defined by the user in the widget section."
+msgstr ""
+"%s := wird entweder mit der Anzahl von Maximale Globale Ergebnisse ersetzt oder einer entsprechend geringeren Zahl, \r\n"
+"\t\t\t\t\tsodass die gesamte Anzahl von angezeigten Links nicht das Maximum überschreitet, dass\r\n"
+"\t\t\t\t\tvom Benutzer im Widget definiert wurde."
+
+#: core/settings.php:201
+#: core/settings.php:237
+#, php-format
+msgid "%s := will be replaced with the query."
+msgstr "%s := wird mit der Suchanfrage ersetzt."
+
+#: core/settings.php:205
+#: core/settings.php:241
+msgid "Global Max Results"
+msgstr "Maximale Globale Ergebnisse"
+
+#: core/settings.php:211
+msgid "Websearch"
+msgstr "Websuche"
+
+#: core/settings.php:215
+msgid "Yahoo Websearch API"
+msgstr "Yahoo Websuche API"
+
+#: core/settings.php:232
+msgid "Websearch URL"
+msgstr "URL für die Websuche"
+
+#: core/settings.php:308
+msgid "Location"
+msgstr "Ort"
+
+#: core/settings.php:310
+msgid "Bottom of page"
+msgstr "Am Ende der Seite"
+
+#: core/settings.php:315
+#: core/settings.php:574
+#: core/settings.php:602
+msgid "Number format"
+msgstr "Format für Nummerierung"
+
+#: core/settings.php:365
+msgid "Tag Name"
+msgstr "Tag Name"
+
+#: core/settings.php:368
+msgid "Default Style"
+msgstr "Standard Stil"
+
+#: core/settings.php:369
+msgid "Built-in Styles"
+msgstr "vorinstallierte Stile"
+
+#: core/settings.php:372
+msgid "Force all posts to use this style"
+msgstr "Für alle Posts verwenden"
+
+#: core/settings.php:381
+msgid "Add Filter"
+msgstr "Filter hinzufügen"
+
+#: core/settings.php:384
+msgid "Style Name"
+msgstr "Stilname"
+
+#: core/settings.php:385
+msgid "Filter Type"
+msgstr "Filtertyp"
+
+#: core/settings.php:461
+#: core/settings.php:465
+msgid "Allowed characters"
+msgstr "gültige Zeichen"
+
+#: core/settings.php:462
+#: core/settings.php:466
+#, php-format
+msgid "Max characters: %s of %s"
+msgstr "Maximale Zeichen: %s von %s"
+
+#: core/settings.php:463
+#, php-format
+msgid "Protected Names: %s"
+msgstr "Geschützte Namen: %s"
+
+#: core/settings.php:467
+msgid "Use of an existing filter type for your custom style will overwrite the filter."
+msgstr "Einen bereits existierenden Namen für den Filter wählen, um den alten zu überschreiben/ändern."
+
+#: core/settings.php:469
+msgid "Preview"
+msgstr "Vorschau"
+
+#: core/settings.php:469
+msgid "no preview available"
+msgstr "keine Vorschau verfügbar"
+
+#: core/settings.php:470
+msgid "Valid Keywords"
+msgstr "Gültige Schlüsselworte"
+
+#: core/settings.php:474
+msgid "Help Tool"
+msgstr "Hilfe"
+
+#: core/settings.php:543
+msgid "Captions are automatically added when first declared in a post/page and if this privilege is met."
+msgstr "Beschriftungen werden automatisch bei erstmaliger Deklaration in einer Post/Page hinzugefügt, sofern die Zugriffsbestimmungen erfüllt sind."
+
+#: core/settings.php:544
+msgid "Who may add global types?"
+msgstr "Wer darf globale Typen hinzufügen­­?"
+
+#: core/settings.php:563
+msgid "When active, these settings will override all captions in any post and in any page."
+msgstr "Sobald aktiviert werden die  Einstellungen für diesen Beschriftungstyp in allen Posts und Pages verwendet."
+
+#: core/settings.php:582
+#: core/settings.php:618
+msgid "Print format"
+msgstr "Druckformatierung"
+
+#: core/settings.php:586
+msgid "Remove permanently"
+msgstr "Für immer löschen"
+
+#: core/settings.php:598
+msgid "Create a new type"
+msgstr "Einen neuen Typ erstellen"
+
+#: core/settings.php:625
+msgid "Rebuild Caption Numbers"
+msgstr "Beschriftungen prüfen & aktualisieren"
+
+#: core/settings.php:695
+msgid "Settings updated."
+msgstr "Einstellungen geändert."
+
+#: core/settings.php:706
+msgid "Added custom filter"
+msgstr "Eigenen Filter hinzugefügt"
+
+#: core/settings.php:707
+msgid "Invalid characters in your citation style"
+msgstr "Ungültige Zeichen im Zitatstil"
+
+#: core/settings.php:711
+msgid "Filter removed"
+msgstr "Filter entfernt"
+
+#: core/settings.php:713
+msgid "Incomplete citation style"
+msgstr "Unvollständiges Zitatstil"
+
+#: core/settings.php:761
+#, php-format
+msgid "Added caption type %s."
+msgstr "Beschriftungstyp %s hinzugefügt."
+
+#: core/settings.php:773
+#, php-format
+msgid "Removed caption type %s."
+msgstr "Beschriftungstyp %s entfernt."
+
+#: core/settings.php:780
+msgid "Rebuild caption numbers."
+msgstr "Beschriftungen geprüft & aktualisiert."
+
+#: core/settings.php:781
+msgid "Failed to rebuild caption numbers."
+msgstr "Konnte nicht die Beschriftungen aktualisieren."
+
+#: netblog.php:335
+#: netblog.php:349
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Fehlende Zugriffsrechte um diese Seite zu sehen."
+
+#: netblogWidgets.php:21
+msgid "A list of links to further resources on a per page/post basis; intern and extern links, Pingbacks."
+msgstr "Eine Link-Liste zu weiteren Resourcen im Web, für jede Page/Post; Pingbacks, Blogsearch."
+
+#: netblogWidgets.php:26
+#: netblogWidgets.php:30
+msgid "Further Reading"
+msgstr "Weiterführende Literatur & Seiten"
+
+#: netblogWidgets.php:51
+#: netblogWidgets.php:317
+msgid "Number of visible hyperlinks"
+msgstr "Zahl angezeigter Hyperlinks"
+
+#: netblogWidgets.php:52
+#: netblogWidgets.php:318
+msgid "0 := hidden; -1 := unlimited"
+msgstr "0 := versteckt; -1 := unbegrenzt"
+
+#: netblogWidgets.php:55
+#: netblogWidgets.php:321
+msgid "within Website"
+msgstr "innerhalb dieser Webseite"
+
+#: netblogWidgets.php:64
+#: netblogWidgets.php:330
+msgid "Pingbacks"
+msgstr "Pingbacks"
+
+#: netblogWidgets.php:73
+msgid "WWW"
+msgstr "WWW"
+
+#: netblogWidgets.php:84
+msgid "Truncate hyperlinks to"
+msgstr "Max. Zeichen je Link"
+
+#: netblogWidgets.php:89
+#: netblogWidgets.php:355
+msgid "characters"
+msgstr "Zeichen"
+
+#: netblogWidgets.php:92
+#: netblogWidgets.php:358
+msgid "Display on"
+msgstr "Anzeigen auf"
+
+#: netblogWidgets.php:98
+#: netblogWidgets.php:364
+msgid "posts"
+msgstr "Posts"
+
+#: netblogWidgets.php:104
+#: netblogWidgets.php:370
+msgid "pages"
+msgstr "Seiten"
+
+#: netblogWidgets.php:110
+#: netblogWidgets.php:376
+msgid "others"
+msgstr "Andere"
+
+#: netblogWidgets.php:112
+#: netblogWidgets.php:378
+msgid "No Links will be displayed and widget will not appear."
+msgstr "Keine Links werden angezeigt. Widget nicht sichtbar."
+
+#: netblogWidgets.php:287
+msgid "Show referenced resources like intern posts/pages, Pingbacks, by Blogsearch"
+msgstr "Zeige verweiste Resourcen, z.B. eigene Posts und Seiten, durch Pingbacks und Blogsearch"
+
+#: netblogWidgets.php:292
+#: netblogWidgets.php:296
+msgid "Referenced By"
+msgstr "Referenziert von"
+
+#: netblogWidgets.php:350
+msgid "Truncate hyperlink to"
+msgstr "Max. Zeichen je Link"
+
+#. Plugin Name of the plugin/theme
+msgid "NetBlog"
+msgstr "NetBlog"
+
+#. Plugin URI of the plugin/theme
+msgid "http://netblog.benjaminsommer.com"
+msgstr "http://netblog.benjaminsommer.com"
+
+#. Description of the plugin/theme
+msgid "Connect posts, pages and external resources (websites, pdf, doc, zip, exe,...). Use Caption, Cross-references, Bibliography, Footnotes. Use of Pingbacks and Blogsearch to dynamically manage your Blog-content (extern links)."
+msgstr "Verbindet Posts u. Seiten miteinander u. mit externen Resourcen (Seiten, Dateien). Verwendet Beschriftung, Querverweise, Fußnoten, Bibliographie, Pingbacks, Blogsearch, Websearch, Batch und CMD-Tool."
+
+#. Author of the plugin/theme
+msgid "Benjamin Sommer"
+msgstr "Benjamin Sommer"
+
+#. Author URI of the plugin/theme
+msgid "http://www.benjaminsommer.com"
+msgstr "http://www.benjaminsommer.com"
+

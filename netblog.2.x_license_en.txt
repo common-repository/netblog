@@ -1,0 +1,58 @@
+== General Aggreement Netblog 2.x ==
+
+=== License ===
+Netblog for Wordpress is published and licensed under the CC GNU GPL 2.0 license. That is, you have
+* The freedom to run the program for any purpose (the author's permission is required for commercial use!).
+* The freedom to study how the program works and adapt it to your needs.
+* The freedom to redistribute copies so you can help your neighbor.
+* The freedom to improve the program and release your improvements to the public, so that the whole community benefits.
+
+You may exercise the freedoms specified here provided that you comply with the express conditions of this license. The principal conditions are to be found at <a href="http://www.gnu.org/licenses/gpl-2.0.html" rel="nofollow">CC GNU GPL 2.0</a>. Additionally, you may only exercise the freedoms specified here provided that you
+# Mark all those portions of the source code that you modified and explain why.
+# Name the author(s) at the beginning of each file of the source code, whose work you modified or adapted and whose ideas you inspired, you further developed and/or you modified.
+# Use this whole software or a piece of it for private or academic purposes, only. You need explicit permission by the original author in case of commercial use (a small donation may apply; contact developer (at) benjaminsommer.com).
+# Send the author of this software a very small email in case of further usage in different projects or in case of modification, in which you state that you have modified/use it and where the author (I) can find your modification/project (which has to be public as well). Send this email to developer (at) benjaminsommer.com.
+
+Please keep in mind that developing this software required a lot of time, e.g. how to solve problems/ideas as best as possible, readable and understandable source code with a lot of explanatory headers and comments, etc. Just using software not by oneself, and NOT making any references or contributions to those people who made such a software, who invented new ideas, who invested a great deal of time for further and future development is simply a PLAGIARISM. In any case, the date of publication makes it clear who at first published a certain idea, or piece of software, and those have to be referenced as well.
+ 
+Should I find out that this software is being modified or used in other projects without making any references or contributions to it (which means sending me at least a very small email, so that I know it), then I am not willing to invest much more time for further development, which in the end destroys development, enhances and enjoyment and possibly new ideas.
+
+
+=== Free Software & Data Security ===
+Netblog is a free software, i.e. you don't have to pay for using it. As a result, you have to backup your WordPress Server Database regularly, esp. before installing or updating plugins. Using Netblog can only be done at your own risk, but a lot has been done and tested so that loss of data is very unlikely.
+
+ 
+=== Privacy Statement ===
+Since Netblog 2.0, some data may be transfered to Netblog Servers. The author hereby garantees that no such information, whether personal or not, are directly transfered to different digital resources other than the Netblog Server Database without your prior knowledge.
+Additionally, the software includes a dedicated privacy level setting to suit your needs. But please keep in mind that these data are only ment for understanding the usage of this software, which helps further development (what you need most).
+
+Personal data like your WordPress site url, name, description and author are never published - but you can transfer them to help solving problems and that we can contact you automatically.
+
+In case you accidentially transfered personal data to the Netblog Server, you may ask to remove them permanently.
+Feedbacks with addresses, phone numbers, credit card numbers etc are removed automatically.
+
+
+=== Excessive Server Usage ===
+Your WordPress Site URL may be temporarily or even permanently block from any access to the Netblog Server if you request are unusually high. This is just a safety precaution because Netblog Server is paid for and maintained from a private person.
+
+
+=== Netblog Server ===
+This server has been created to make the software better, and thus to make your work more fast and efficient with new features you need! Please, don't waste valuable resources!
+The Server is maintained by the author himself and by an industry-trusted team of professionals (DELL servers, Microsoft Gold Certified Partner).
+Server Location: Cologne, Germany.
+
+
+=== Software Requirements ===
+* PHP 5.x (required library: libxml; recommended: libmcrypt 2.5.6)
+* MySQL 5.x with mysqli
+* WP 2.8 - 3.2
+
+
+=== Donations ===
+Developing Netblog, maintaining Netblog Server, writing documentations and asking your questions takes A LOT OF TIME - but if you really like Netblog, I believe its worth it. There are a couple of new features in planning (e.g. NetVis), which requires ActionScript 3 and Flash 10 (which I don't know much about). And even with Netblog 2, a lot of old code has to be made more object-oriented (esp. nbdb). And the tutorials can be more helpful. So a small donation might actually help me with the upcoming tasks. 
+
+
+ 
+'''Thank you for your cooperation, appreciation and for using Netblog'''
+The author
+Benjamin Sommer

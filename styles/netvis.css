@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+.netblog-netvis {
+	background: #FFF;
+	height: 600px;
+	margin: 0px;
+	border: 0px solid #CCC;
+	overflow: hidden;
+}
+.netblog-netvis a,
+.netblog-netvis a:link,
+.netblog-netvis a:visited {
+	color: #999;
+	text-decoration: none;
+}
+.netblog-netvis a:hover,
+.netblog-netvis a:focus {
+	color: #666;
+	cursor: pointer;
+}
+.netblog-netvis-area {
+	position: relative;
+}
+.netblog-netvis .box-left {
+	float: left;
+	position: relative;
+	margin: 0px 10px;
+	z-index: 70;
+	
+	top: 100px;
+	
+	width: 300px;
+}
+
+.netblog-netvis .box-right {
+	float: left;
+	position: relative;
+	margin: 0px 10px;
+	z-index: 70;
+	
+
+	width: 300px;
+}
+
+.netblog-netvis .box-mid {
+	float: left;
+	position: relative;	
+	margin: 0 20px;
+	
+	width: 250px;
+	height: 100px;
+	min-width: 100px;
+	top: 200px;
+	
+
+}
+
+/* BOX MID */
+.netblog-netvis .box-mid .thumbnail {
+	width: 64px;
+	height: 64px;
+	border: 1px solid #CCC;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.netblog-netvis .box-mid .txt-title {
+	font-weight: bold;
+	font-size: 11px;
+}
+.netblog-netvis .box-mid .txt-desc {
+	color: #666;
+	font-size: 10px;
+}
+.netblog-netvis .box-mid .txt-details ul {
+	list-style-type: circle;
+	list-style-position: inside;
+	margin: 5px 3px;
+}
+.netblog-netvis .box-mid .txt-details ul li {
+	color: #999;
+	font-size: 10px;
+}
+.netblog-netvis .box-mid .txt-details table .key {
+	color: #999;
+	font-size: 10px;
+	padding-right: 5px;
+}
+.netblog-netvis .box-mid .txt-details table .val {
+	color: #666;
+	font-size: 10px;
+}
+
+/* SUBMENUS */
+.netblog-netvis .box-mid .menu-left,
+.netblog-netvis .box-mid .menu-right,
+.netblog-netvis .box-mid .menu-left a,
+.netblog-netvis .box-mid .menu-left a:link,
+.netblog-netvis .box-mid .menu-left a:visited,
+.netblog-netvis .box-mid .menu-right a,
+.netblog-netvis .box-mid .menu-right a:link,
+.netblog-netvis .box-mid .menu-right a:visited {
+	font-size: 10px;
+	color: #CCC;
+	text-decoration: none;
+}
+.netblog-netvis .box-mid .menu-left a:hover,
+.netblog-netvis .box-mid .menu-left a:focus,
+.netblog-netvis .box-mid .menu-right a:hover,
+.netblog-netvis .box-mid .menu-right a:focus {
+	text-decoration: none;
+	color: #666;
+}
+.netblog-netvis .box-mid .menu-left {
+	float: left;
+}
+.netblog-netvis .box-mid .menu-right {
+	float: right;
+}
+.netblog-netvis .nofloat {
+	float: none;
+	clear: both;
+}
+
+/* COLOR BOXS */
+.netblog-netvis .box-color {
+	border-radius: 5px 5px;
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px;
+	padding: 2px 4px;
+}
+.netblog-netvis .box-color .title {
+	font-size: 9px;
+	float: right;
+	text-transform: capitalize;
+}
+.netblog-netvis .box-color ul {
+	list-style-position: inside;
+	list-style-type: circle;
+	text-indent: -15px;
+	margin-left: 15px;
+}
+.netblog-netvis .box-color ul li {
+	cursor: pointer;
+}
+.netblog-netvis .box-red {
+	background: #FFB9B9;
+	border-color: #900;
+}
+.netblog-netvis .box-yellow {
+	background: #FF9;
+	border-color: #FC0;
+}
+.netblog-netvis .box-yellow .title {
+	color: #F90;
+}
+.netblog-netvis .box-orange {
+	background: #FDEBC8;
+	border-color: #F90;
+}
+.netblog-netvis .box-orange .title {
+	color: #F60;
+}
+.netblog-netvis .box-blue {
+	background: #CEE7FF;
+	border-color: #06F;
+}
+.netblog-netvis .box-blue .title {
+	color: #06C;
+}
+
+
+/* BACKGROUNDS */
+.netblog-netvis .bg-arrow-left {
+	position: absolute;
+	width: 320px;
+	height: 64px;
+	left: -250px;
+	
+	z-index: 50;
+	
+	background: url(../images/arrows_orange.png);
+}
+.netblog-netvis .bg-arrow-right {
+	position: absolute;
+	width: 320px;
+	height: 64px;
+	left: 175px;
+	
+	z-index: 50;
+	
+	background: url(../images/arrows_blue.png);
+}
